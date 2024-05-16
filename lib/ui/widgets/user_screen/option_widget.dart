@@ -40,8 +40,8 @@ class OptionWidget extends StatelessWidget {
               decoration: BoxDecoration(
                 color: isSelected ? const Color(0xFF8B88EF) : Colors.transparent,
                 border: Border.all(
-                  color: isSelected ? const Color(0xFF8B88EF) : Colors.white,
-                  width: 2.0,
+                  color: isSelected ? const Color(0xFF8B88EF) : const Color(0xFFC4C4C4),
+                  width: 1.0,
                 ),
                 shape: BoxShape.circle,
               ),
@@ -50,7 +50,7 @@ class OptionWidget extends StatelessWidget {
                 style: const TextStyle(
                   fontSize: 10.0,
                   fontFamily: 'ProximaNova',
-                  color: Colors.white,
+                  color: Color(0xFFC4C4C4),
                 ),
               ),
             ),
@@ -61,7 +61,7 @@ class OptionWidget extends StatelessWidget {
                   text,
                   style: const TextStyle(
                     fontFamily: 'ProximaNova',
-                    color: Colors.white,
+                    color: Color(0xFFC4C4C4),
                   ),
                 ),
               ),
